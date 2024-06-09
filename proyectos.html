@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Menu -->
+<nav class="navbar navbar-expand-lg navbar-light bg-orange fixed-top" style="height: 140px;">
+    <div class="container-fluid justify-content-between menu-desplegado">
+        <!-- Elementos de la izquierda -->
+        <div class="d-flex">
+            <!-- Logo -->
+            <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="inicio.html">
+                <img
+                    src="image\marc.png"
+                    height="140" 
+                    alt="MERG Logo"
+                    loading="lazy"
+                    style="margin-top: 5px;" 
+                />
+            </a>
+        </div>
+
+        <!-- Botón de colapso -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Elementos en el centro -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="inicio.html">Página de Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="SobreMi.html">Sobre mí</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link proyectos" href="#">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Nombre y foto -->
+        <div class="navbar-nav flex-row">
+            <a class="nav-link d-sm-flex align-items-sm-center">
+                <img
+                    src="image\foto.jpg"
+                    class="rounded-circle"
+                    height="50" 
+                    alt="Black and White Portrait of a Man"
+                    loading="lazy"
+                />
+                <strong class="d-none d-sm-block ms-3">Miguel Enrique Ruiz Gómez</strong>
+            </a>
+        </div>
+        <!-- Nombre y foto -->
+    </div>
+</nav>
+<!-- Fin Menu -->
+
+<!--Contenido de la página "Proyectos"-->
+<div class="page-content" style="margin-top: 150px;">
+    <!-- El traductor -->
+    <section>
+        <div id="google_translate_element" style="margin-top: 20px;"></div>
+    </section>
+
+    <!-- Contenedor de proyectos -->
+    <div class="proyectos-container">
+        <!-- Tarjeta de Proyecto 1 -->
+        <div class="proyecto-card active">
+            <div class="proyecto-content">
+                <img src="image\pathtoy.jpg" alt="PathToy" class="proyecto-img1">
+                <div class="proyecto-description">
+                    <h2>PathToy</h2>
+                    <h4>PathToy es una Aplicación Web diseñada para facilitar la donación, intercambio y petición de juguetes entre usuarios de diversas comunidades. La idea principal detrás de PathToy es fomentar la solidaridad y promover la reutilización de juguetes en buen estado, contribuyendo así a la reducción del desperdicio y al bienestar de niños de todas las edades.</h4>
+                    <h2>Función</h2>
+                    <H3>QA</H3>
+                    <H2>Lenguajes de programación</H2>
+                        <ul> 
+                            <li>PHP</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    <a href="https://github.com/eliseolozanowp/PathToy.git" target="_blank" class="proyecto-link">Enlace a GitHub - PathToy</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjeta de Proyecto 2 -->
+        <div class="proyecto-card">
+            <div class="proyecto-content">
+                <img src="image\mediA.jpg" alt="MediAlert UGB-CRU" class="proyecto-img2">
+                <div class="proyecto-description">
+                    <h2>MediAlert UGB-CRU</h2>
+                    <h4>MediAlert es una aplicación móvil que permita ingresar con el correo institucional, en dado caso de no tener registrado el correo, tener el apartado de registro de nuevo usuario. Una vez ingresado, el usuario podrá ver opciones predeterminadas como fiebre, desmayo, golpe, etc. y al seleccionar una de esas opciones, inmediatamente manda una alerta al área de salud con la ubicación exacta de donde se encuentra el estudiante dentro de la UGB-CRU.</h4>
+                    <h2>Función</h2>
+                    <H3>Desarrollador</H3>
+                    <H2>Lenguajes de programación</H2>
+                    <ul> 
+                        <li>Java</li>
+                    </ul>
+                    <a href="https://github.com/MigueloRuiz14/MediAlert_UGB-CRU.git" target="_blank" class="proyecto-link">Enlace a GitHub - MediAlert</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjeta de Proyecto 3 -->
+        <div class="proyecto-card">
+            <div class="proyecto-content">
+                <img src="image\LECTOR.jpg" alt="Lector" class="proyecto-img3">
+                <div class="proyecto-description">
+                    <h2>LectorInteligente</h2>
+                    <h4>LectorInteligente es una innovadora solución que aprovecha la inteligencia artificial para permitir a los usuarios convertir imágenes de texto en archivos de audio fácilmente accesibles. La plataforma está diseñada para ayudar a personas dificultades de lectura, así como a cualquier persona que prefiera consumir contenido en formato auditivo.</h4>
+                    <h2>Función</h2>
+                    <H3>Desarrollador</H3>
+                    <H2>Lenguajes de programación</H2>
+                        <ul> 
+                            <li>HTML</li>
+                            <li>Python</li>
+                        </ul>
+                    <a href="https://github.com/MigueloRuiz14/LectorInteligente.git" target="_blank" class="proyecto-link">Enlace a GitHub - LectorInteligente</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botones de Navegación -->
+    <div class="btn-container">
+        <button class="btn-anterior">Anterior</button>
+        <button class="btn-siguiente">Siguiente</button>
+    </div>
+</div>
+
+<!-- Pie de página -->
+<footer class="footer text-center" style="margin-top: 50px;">
+    <div class="container d-flex flex-wrap justify-content-center">
+        <a href="mailto:migueloruiz1416@gmail.com" class="d-flex align-items-center">
+            <img src="image/correo.png" alt="Correo" style="width: 24px; height: 24px; vertical-align: middle;">
+            <span class="ms-2">migueloruiz1416@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/migueloruiz14/" class="d-flex align-items-center">
+            <img src="image/linkedin.png" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle;">
+            <span class="ms-2">LinkedIn</span>
+        </a>
+        <a href="https://maps.google.com/maps?q=San+Pedro+Arenales,+Chinameca,+San+Miguel+Oeste,+San+Miguel" class="d-flex align-items-center">
+            <img src="image/direccion.png" alt="Dirección" style="width: 24px; height: 24px; vertical-align: middle;">
+            <span class="ms-2">Dirección</span>
+        </a>
+        <a href="tel:+50372299736" class="d-flex align-items-center">
+            <img src="image/telefono.png" alt="Teléfono" style="width: 24px; height: 24px; vertical-align: middle;">
+            <span class="ms-2">Teléfono</span>
+        </a>
+    </div>
+</footer>
+<!-- Fin del pie de página -->
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Script personalizado para mostrar/ocultar el menú en dispositivos móviles -->
+<script>
+    $(document).ready(function(){
+        $('.navbar-toggler').click(function(){
+            $('#navbarSupportedContent').toggleClass('show');
+        });
+
+        // Botón Siguiente
+        $('.btn-siguiente').click(function() {
+            var currentCard = $('.proyecto-card.active');
+            var nextCard = currentCard.next('.proyecto-card');
+            if (nextCard.length) {
+                currentCard.removeClass('active');
+                nextCard.addClass('active');
+            } else {
+                currentCard.removeClass('active');
+                $('.proyecto-card:first-child').addClass('active');
+            }
+        });
+
+        // Botón Anterior
+        $('.btn-anterior').click(function() {
+            var currentCard = $('.proyecto-card.active');
+            var prevCard = currentCard.prev('.proyecto-card');
+            if (prevCard.length) {
+                currentCard.removeClass('active');
+                prevCard.addClass('active');
+            } else {
+                currentCard.removeClass('active');
+                $('.proyecto-card:last-child').addClass('active');
+            }
+        });
+    });
+</script>
+
+<!-- Google Translate -->
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      includedLanguages: 'es,en',
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+      autoDisplay: false
+    }, 'google_translate_element');
+  }
+
+  function setLanguageNames() {
+    document.querySelectorAll('.goog-te-menu-value span:first-child').forEach(function(element) {
+      if (element.innerHTML.toLowerCase() === 'español') {
+        element.innerHTML = 'Español';
+      } else if (element.innerHTML.toLowerCase() === 'english') {
+        element.innerHTML = 'Inglés';
+      }
+    });
+  }
+
+  function setDefaultLanguage() {
+    var select = document.querySelector('.goog-te-combo');
+    if (select) {
+      select.innerHTML = select.innerHTML.replace('es', 'Español').replace('en', 'Inglés');
+      select.addEventListener('change', setLanguageNames);
+    }
+    setLanguageNames(); // Call it initially to rename the default option
+  }
+
+  window.onload = function() {
+    googleTranslateElementInit();
+    setTimeout(setDefaultLanguage, 1000);  // Adjust delay if necessary
+  };
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- Fin de Google Translate -->
+
+</body>
+</html>

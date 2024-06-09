@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mí</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"> 
+
+</head>
+<body>
+<!-- Menu -->
+<nav class="navbar navbar-expand-lg navbar-light bg-orange fixed-top" style="height: 140px;">
+    <div class="container-fluid justify-content-between menu-desplegado">
+        <!-- Elementos de la izquierda -->
+        <div class="d-flex">
+            <!-- Logo -->
+            <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="inicio.html">
+                <img
+                    src="image/marc.png"
+                    height="140" 
+                    alt="MERG Logo"
+                    loading="lazy"
+                    style="margin-top: 5px;" 
+                />
+            </a>
+        </div>
+
+        <!-- Botón de colapso -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Elementos en el centro -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="inicio.html">Página de Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link sobre-mi" href="#">Sobre mí</a> <!-- Enlace modificado -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="proyectos.html">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Nombre y foto -->
+        <div class="navbar-nav flex-row">
+            <a class="nav-link d-sm-flex align-items-sm-center">
+                <img
+                    src="image/foto.jpg"
+                    class="rounded-circle"
+                    height="50" 
+                    alt="Black and White Portrait of a Man"
+                    loading="lazy"
+                />
+                <strong class="d-none d-sm-block ms-3">Miguel Enrique Ruiz Gómez</strong>
+            </a>
+        </div>
+        <!-- Nombre y foto -->
+    </div>
+</nav>
+<!-- Fin Menu -->
+
+<!-- Contenido de la página "Sobre mí" -->
+<div class="page-content" style="margin-top: 150px;">
+    <!-- El traductor -->
+    <section>
+      <div id="google_translate_element" style="margin-top: 20px;"></div>
+    </section>
+        <h2>Hola, ¡soy Miguel Enrique Ruiz Gómez!</h2>
+        <!-- Área de curriculum -->
+            <div class="curriculum-body">
+                <div class="cv-images">
+                    <img src="image/cv1.png" alt="curriculum" class="cv-image" />
+                    <img src="image/cv2.png" alt="curriculum" class="cv-image" />
+                </div>
+                <a href="CV.pdf" download="CV-MERG.pdf" class="cv-download-btn">Descargar CV</a>
+            </div>
+        <!-- Fin de curriculum -->
+
+        <!-- Áreas de interés -->
+            <div class="card-header interes">
+                <h3>Áreas de Interés</h3>
+            </div>
+            <div class="card-body inte">
+                <div class="interests">
+                    <div class="interest-card redes">
+                        <h4>Redes</h4>
+                            <p>Me fascina explorar cómo los dispositivos y sistemas se interconectan para facilitar la comunicación y el intercambio de información. Me resulta gratificante entender cómo estas conexiones impulsan la conectividad en el mundo moderno y afectan nuestra forma de interactuar, comunicarnos y colaborar.</p>
+                            <img src="image/redes.png" alt="Redes" />
+                    </div>
+                    <div class="interest-card electronica">
+                        <h4>Electrónica</h4>
+                        <p>Disfruto del mundo de los circuitos y componentes electrónicos, así como de su aplicación en la creación de dispositivos innovadores.</p>
+                        <img src="image/arduino.jpg" alt="Electrónica" />
+                    </div>
+                    <div class="interest-card modelaje">
+                        <h4>Modelado y Animación</h4>
+                        <p>Disfruto mucho del mundo del modelado y la animación por computadora, ya que puedo dar vida a ideas y conceptos a través de medios digitales. Me gusta explorar las herramientas y técnicas para crear modelos tridimensionales realistas, así como animarlos y darles movimiento.</p>
+                        <img src="image/modelaje.png" alt="Modelado y Animación" />
+                    </div>
+                </div>
+            </div>
+        <!-- Fin de áreas de interés -->
+
+        <!-- Habilidades -->
+            <div class="card-header habi">
+                <h3>Habilidades</h3>
+            </div>
+            <div class="card-body habilidades">
+                <!-- Habilidades duras -->
+                <div class="skills-card duras">
+                    <h4>Habilidades Duras</h4>
+                    <div class="skills-list">
+                        <div class="skill active">
+                            <h5>Conocimiento de Sistemas Operativos</h5>
+                            <div class="skill-icon">
+                                <img src="image/so.jpg" alt="Sistemas Operativos">
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h5>Redes</h5>
+                            <div class="skill-icon">
+                                <img src="image/red.jpg" alt="Diseño de Redes">
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h5>Conocimiento de Hardware</h5>
+                            <div class="skill-icon">
+                                <img src="image/hardware.jpg" alt="Conocimiento de Hardware">
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h5>Desarrollo Web (HTML, CSS)</h5>
+                            <div class="skill-icon">
+                                <img src="image/css.jpg" alt="Desarrollo Web">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-container">
+                        <button class="prev-btn">Anterior</button>
+                        <button class="next-btn">Siguiente</button>
+                    </div>
+                </div>
+                <!-- Fin habilidades duras -->
+
+                <!-- Habilidades blandas -->
+                <div class="skills-card blandas">
+                    <h4>Habilidades Blandas</h4>
+                    <div class="skills-list">
+                        <div class="skill active">
+                            <h5>Comunicación Efectiva</h5>
+                            <div class="skill-icon">
+                                <img src="image/comuni.jpg" alt="Comunicación Efectiva">
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h5>Trabajo en Equipo</h5>
+                            <div class="skill-icon">
+                                <img src="image/trabajo.jpg" alt="Trabajo en Equipo">
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h5>Capacidad para Motivar y Guiar a Otros</h5>
+                            <div class="skill-icon">
+                                <img src="image/moti.jpg" alt="Capacidad para Motivar">
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h5>Empatía</h5>
+                            <div class="skill-icon">
+                                <img src="image/empatico.jpg" alt="Empatía">
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h5>Creatividad</h5>
+                            <div class="skill-icon">
+                                <img src="image/creativo.jpg" alt="Creatividad">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-container">
+                        <button class="prev-btn">Anterior</button>
+                        <button class="next-btn">Siguiente</button>
+                    </div>
+                </div>
+                <!-- Fin habilidades blandas -->
+            </div>
+        <!-- Fin habilidades -->
+
+        <!-- Valores profesionales -->
+      
+            <div class="card-header valores">
+                <h3>Valores Profesionales</h3>
+            </div>
+            <div class="card-body valo">
+                <div class="values">
+                    <div class="values-card valor1">
+                        <h4>Respeto</h4>
+                        <p>Me identifico por tener respeto hacia mis colegas, clientes y usuarios; valorando sus opiniones, experiencias y contribuciones.</p>
+                        <img src="image/respeto.jpg" alt="Respeto" />
+                    </div>
+                    <div class="values-card valor2">
+                        <h4>Responsabilidad</h4>
+                        <p>Me hago responsable de mis acciones y decisiones en los proyectos en los que participo.</p>
+                        <img src="image/responsabilidad.jpg" alt="Responsabilidad" />
+                    </div>
+                    <div class="values-card valor3">
+                        <h4>Ética</h4>
+                        <p>En cada proyecto en el que participo, me comprometo a actuar con integridad y honestidad, asegurando que mis acciones estén alineadas con los más altos estándares éticos.</p>
+                        <img src="image/ETICA.jpg" alt="Ética" />
+                    </div>
+                </div>
+            </div>
+        
+        <!-- Fin valores profesionales -->  
+
+        <!-- Reconocimientos -->
+         <div class="card-header reconocimien">
+            <h3>Reconocimientos</h3>
+        </div>
+            <div class="card-body reco">
+                <div class="reconocimientos">
+                    <div class="reco-card reconocimiento1">
+                        <h4>CCNAv7: Switching, Routing and Wireless Essentials</h4>
+                        <img src="image\curso1.png" alt="Switching, Routing and Wireless Essentials" />
+                    </div>
+                    <div class="reco-card reconocimiento2">
+                        <h4>CCNAv7: Introducción a Redes</h4>
+                        <img src="image\curso2.png" alt="Introducción a Redes" />
+                    </div>
+                    <div class="reco-card reconocimiento3">
+                        <h4>Diseño de interfaces de Usuario UX/UI</h4>
+                        <img src="image\curso3.png" alt="Diseño de interfaces de Usuario UX/UI" />
+                    </div>
+                </div>
+            </div>
+        <!-- Fin Reconocimientos -->   
+    </div>
+</div>
+<!-- Fin contenido sobre mí -->
+
+<!-- Pie de página -->
+<footer class="footer text-center" style="margin-top: 50px;">
+    <div class="container d-flex flex-wrap justify-content-center">
+        <a href="mailto:migueloruiz1416@gmail.com" class="d-flex align-items-center">
+            <img src="image/correo.png" alt="Correo" style="width: 24px; height: 24px; vertical-align: middle;">
+            <span class="ms-2">migueloruiz1416@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/migueloruiz14/" class="d-flex align-items-center">
+            <img src="image/linkedin.png" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle;">
+            <span class="ms-2">LinkedIn</span>
+        </a>
+        <a href="https://maps.google.com/maps?q=San+Pedro+Arenales,+Chinameca,+San+Miguel+Oeste,+San+Miguel" class="d-flex align-items-center">
+            <img src="image/direccion.png" alt="Dirección" style="width: 24px; height: 24px; vertical-align: middle;">
+            <span class="ms-2">Dirección</span>
+        </a>
+        <a href="tel:+50372299736" class="d-flex align-items-center">
+            <img src="image/telefono.png" alt="Teléfono" style="width: 24px; height: 24px; vertical-align: middle;">
+            <span class="ms-2">Teléfono</span>
+        </a>
+    </div>
+</footer>
+<!-- Fin del pie de página -->
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Script personalizado para mostrar/ocultar el menú en dispositivos móviles y también lo de cambiar entre cards -->
+<script>
+    $(document).ready(function(){
+        $('.navbar-toggler').click(function(){
+            $('#navbarSupportedContent').toggleClass('show');
+        });
+    });
+
+    $(document).ready(function() {
+    $('.prev-btn').click(function() {
+        var currentSkills = $(this).closest('.skills-card').find('.skill.active');
+        var prevSkill = currentSkills.removeClass('active').prev('.skill');
+        if (prevSkill.length > 0) {
+            prevSkill.addClass('active');
+        } else {
+            $(this).closest('.skills-card').find('.skill:last').addClass('active');
+        }
+    });
+
+    $('.next-btn').click(function() {
+        var currentSkills = $(this).closest('.skills-card').find('.skill.active');
+        var nextSkill = currentSkills.removeClass('active').next('.skill');
+        if (nextSkill.length > 0) {
+            nextSkill.addClass('active');
+        } else {
+            $(this).closest('.skills-card').find('.skill:first').addClass('active');
+        }
+    });
+});
+</script>
+
+<!-- Google Translate -->
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      includedLanguages: 'es,en',
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+      autoDisplay: false
+    }, 'google_translate_element');
+  }
+
+  function setLanguageNames() {
+    document.querySelectorAll('.goog-te-menu-value span:first-child').forEach(function(element) {
+      if (element.innerHTML.toLowerCase() === 'español' || element.innerHTML === 'Español') {
+        element.innerHTML = 'Español';
+      } else if (element.innerHTML.toLowerCase() === 'english' || element.innerHTML === 'Inglés') {
+        element.innerHTML = 'Inglés';
+      }
+    });
+  }
+
+  function setDefaultLanguage() {
+    var select = document.querySelector('.goog-te-combo');
+    if (select) {
+      select.innerHTML = select.innerHTML.replace('es', 'Español').replace('en', 'Inglés');
+      select.addEventListener('change', setLanguageNames);
+    }
+    setLanguageNames(); // Call it initially to rename the default option
+  }
+
+  window.onload = function() {
+    googleTranslateElementInit();
+    setTimeout(setDefaultLanguage, 1000);  // Adjust delay if necessary
+  };
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- Fin de Google Translate -->
+
+</body>
+</html>

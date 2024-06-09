@@ -1,0 +1,572 @@
+/* Estilos para el selector de idioma */
+.goog-te-combo {
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Estilos para el menú */
+.bg-orange {
+    background: linear-gradient(to right, rgb(241, 220, 181), #ff9900);
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.menu-desplegado {
+    background: linear-gradient(to right, rgb(241, 220, 181), #ff9900);
+}
+
+.nav-link.inicio {
+    color: #fff;
+    background-color: #003366;
+}
+
+.nav-link.sobre-mi {
+    color: #fff;
+    background-color: #003366;
+}
+
+.nav-link.proyectos {
+    color: #fff;
+    background-color: #003366;
+}
+
+.nav-link.intereses {
+    color: #fff;
+    background-color: #003366;
+}
+
+.nav-link.contacto {
+    color: #fff;
+    background-color: #003366;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    background-color: #003366;
+    color: #fff;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    background-color: #003366;
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-color: #ff9900;
+}
+
+/* Estilos para el contenido de la página principal */
+.page-content {
+    background: linear-gradient(to bottom, rgb(247, 247, 250), #003366b5);
+    color: #333;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+    background-color: #000;
+    border: none;
+    margin-top: 20px;
+}
+
+.card-title {
+    color: #003366;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text {
+    text-align: justify;
+    color:#000;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.footer a {
+    color: #fff;
+    background-color: #003366;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 15px;
+}
+
+
+
+
+
+/*SOBRE MI*/
+
+/* Estilos generales */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page-content {
+    text-align: center;
+}
+
+
+/* Estilos para las tarjetas */
+.card {
+    border: none; /* Elimina el borde de la tarjeta */
+    border-radius: 10px; /* Ajusta el radio de borde según sea necesario */
+    box-shadow: none; /* Elimina la sombra de la tarjeta */
+    background: linear-gradient(to bottom, #00336616, #0033663f);
+}
+
+
+
+/*Encabezados*/
+.card-header h3 {
+    font-weight: bold;
+    margin: 0;
+    color: #030c15;
+    font-size: 45px;
+}
+
+
+
+
+/* Estilos para pantallas grandes */
+.cv-body {
+    display: flex;
+    align-items: center;
+}
+
+.cv-image {
+    width: 465px;
+    height: 700px; /* Añadí 'px' a la altura */
+    margin-right: 40px;
+}
+
+.cv-download-btn {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cv-download-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para pantallas de dispositivos móviles */
+@media (max-width: 768px) {
+    .cv-body {
+        flex-direction: column; /* Cambiar a diseño de columna */
+        align-items: center; /* Alinear al centro */
+    }
+
+    .cv-image {
+        margin-right: 0; /* Eliminar el margen derecho */
+    }
+
+}
+
+
+
+
+
+/* Ajustes para las tarjetas de intereses */
+.interests{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.interest-card{
+    flex-basis: calc(33.33% - 20px); 
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+/* Para pantallas de dispositivos móviles */
+@media (max-width: 768px) {
+    .interest-card {
+        flex-basis: 100%;
+    }
+}
+.redes {
+    /* Estilos para la tarjeta "Redes" */
+    background: linear-gradient(to right, rgb(240, 241, 215), rgb(211, 162, 49));
+}
+
+.electronica {
+    /* Estilos para la tarjeta "Electrónica" */
+    background: linear-gradient(to right, rgb(217, 233, 233), rgb(135, 204, 193));
+}
+
+.modelaje {
+    /* Estilos para la tarjeta "Modelaje y Animación" */
+    background: linear-gradient(to right, rgb(223, 223, 213), rgb(79, 73, 61));
+}
+.interest-card p{
+    text-align: justify;
+}
+
+.interest-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    
+}
+
+.interest-card h4 {
+    font-weight: bold;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+
+/* Diseño para habilidades */
+.skills-card {
+    width: 49.9%;
+    margin-bottom: 50px;    
+}
+
+.habilidades{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.duras{
+    background: linear-gradient(to right, rgb(227, 242, 244), rgb(187, 244, 252));
+}
+.blandas{
+    background: linear-gradient(to right, rgb(187, 244, 252), rgb(178, 221, 76));
+}
+
+.skills-card h4 {
+    font-weight: bold;
+    margin-top: 0;
+}
+.skills-card h5{
+    font-weight: bold;
+    color: #0f4f93;
+}
+
+.skills-card .skill:not(.active) {
+    display: none;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.prev-btn,
+.next-btn {
+    color: white;
+    margin: 0 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    background-color: #007bff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover{
+    background-color: #0056b3;
+}
+
+.skill-icon {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 40%;
+    overflow: hidden;
+    margin-left: 10px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.skill-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+/* Estilos para las tarjetas de valores profesionales */
+.values {
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.values-card {
+    flex-basis: calc(33.33% - 20px); 
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+/* Para pantallas de dispositivos móviles */
+@media (max-width: 768px) {
+    .values-card {
+        flex-basis: 100%;
+    }
+}
+.values-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.valor1{
+    background: linear-gradient(to right, rgb(246, 239, 239), rgb(247, 197, 197)); /*Color para el valor de respeto*/
+}
+.valor2{
+    background: linear-gradient(to right,  rgb(247, 197, 197), rgb(250, 147, 147)); /*Color para el valor de responsabilidad*/
+}
+.valor3{
+    background: linear-gradient(to right,  rgb(250, 147, 147), rgb(245, 41, 41)); /*Color para el valor de etica*/
+}
+.values-card h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.values-card p{
+    text-align: justify;
+}
+
+
+
+/* Estilos para las tarjetas de reconocimientos */
+.reconocimientos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reco-card {
+    flex-basis: calc(33.33% - 20px); 
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+/* Para pantallas de dispositivos móviles */
+@media (max-width: 768px) {
+    .reco-card {
+        flex-basis: 100%;
+    }
+}
+.reco-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.reconocimiento1{
+    background: linear-gradient(to right, rgb(241, 241, 241), rgb(206, 204, 204)); /*Color para el valor de respeto*/
+}
+.reconocimiento2{
+    background: linear-gradient(to right,  rgb(206, 204, 204), rgb(181, 179, 179)); /*Color para el valor de responsabilidad*/
+}
+.reconocimiento3{
+    background: linear-gradient(to right,  rgb(181, 179, 179), rgb(142, 141, 141)); /*Color para el valor de etica*/
+}
+.reco-card h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Proyectos*/
+.page-content {
+    overflow-x: hidden; /* Agregar esta línea para ocultar la barra deslizadora */
+}
+
+.proyectos-container {
+    display: flex;
+    margin-top: 30px;
+    scroll-snap-type: x mandatory;
+    overflow-x: hidden; /* Agregar esta línea para ocultar la barra deslizadora */
+}
+
+.proyecto-card {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding:     20px;
+    margin-right: 10px;
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+    min-width: calc(100% - 20px); /* Toma en cuenta el margen */
+    display: none; /* Ocultar todas las tarjetas inicialmente */
+}
+
+.proyecto-card.active {
+    display: block; /* Mostrar solo la tarjeta activa */
+}
+
+/* Estilos generales */
+.page-content {
+    overflow-x: hidden; /* Ocultar la barra deslizadora horizontal */
+}
+
+.proyectos-container {
+    display: flex;
+    margin-top: 30px;
+    scroll-snap-type: x mandatory;
+    overflow-x: hidden; /* Ocultar la barra deslizadora horizontal */
+}
+
+.proyecto-card {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 10px;
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+    min-width: calc(100% - 20px); /* Toma en cuenta el margen */
+    display: none; /* Ocultar todas las tarjetas inicialmente */
+}
+
+.proyecto-card.active {
+    display: block; /* Mostrar solo la tarjeta activa */
+}
+
+/* Estilos para pantallas grandes */
+.proyecto-content {
+    display: flex;
+    align-items: center;
+}
+
+.proyecto-img1 {
+    width: 54%; /* Tamaño de la imagen ajustado */
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px; /* Espacio entre la imagen y la descripción */
+}
+.proyecto-img2 {
+    width: 20%; /* Tamaño de la imagen ajustado */
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px; /* Espacio entre la imagen y la descripción */
+}
+.proyecto-img3 {
+    width: 40%; /* Tamaño de la imagen ajustado */
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px; /* Espacio entre la imagen y la descripción */
+}
+
+.proyecto-description {
+    flex: 1;
+    margin-bottom: 10px; /* Separación entre la descripción y el enlace */
+}
+
+.proyecto-description h2{
+    font-weight: bold;
+}
+.proyecto-description h4{
+    text-align: justify;
+}
+
+.proyecto-link {
+    display: block; /* Hacer que el enlace ocupe todo el ancho disponible */
+    color: #2d10ad; /* Color azul para el enlace */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold;
+}
+
+.proyecto-link:hover {
+    text-decoration: underline; /* Subrayar el enlace al pasar el ratón */
+}
+
+.btn-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-anterior,
+.btn-siguiente {
+    background-color: #ff9900;
+    font-weight: bold;
+    color: #000; /* Texto negro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-anterior:hover,
+.btn-siguiente:hover {
+    background-color: #003366; /* Fondo azul oscuro */
+    color: white;
+}
+
+/* Estilos para pantallas de dispositivos móviles */
+@media (max-width: 768px) {
+    .proyecto-content {
+        flex-direction: column; /* Cambiar a diseño de columna */
+        align-items: center; /* Alinear al centro */
+    }
+
+    .proyecto-img1,
+    .proyecto-img2,
+    .proyecto-img3 {
+        width: 100%; /* Ajustar el ancho de la imagen al 100% */
+        margin-bottom: 20px; /* Agregar espacio entre la imagen y la descripción */
+    }
+}
+
+
+
